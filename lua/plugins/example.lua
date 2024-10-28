@@ -20,6 +20,17 @@ return {
     },
   },
 
+  --set colorscheme
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+
+  -- Configure LazyVim to load Catppuccin
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin", -- Set your desired colorscheme here
+    },
+  },
+
   -- change trouble config
   {
     "folke/trouble.nvim",

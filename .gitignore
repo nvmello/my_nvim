@@ -1,8 +1,35 @@
+# Ignore generated files
+lazy-lock.json
+lazyvim.json
+
+# Ignore local configuration files (if applicable)
+stylua.toml
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore backup files
+*~
+*.swp
+
+# Ignore Neovim specific files
+*.undo
+*.backup
+
+# Ignore user-specific configuration files
+local-settings.lua
+
+# Ignore test output and related files
 tt.*
 .tests
+
+# Ignore documentation and debug files
 doc/tags
 debug
 .repro
+
+# Ignore miscellaneous files
 foo.*
-*.log
 data
+
